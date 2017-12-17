@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="platform"
+           fetch="https://github.com/Belray-Yao"
+           review="https://android-review.googlesource.com/" />
+  <default revision="refs/head/itop4412"
+           remote="platform"
+           sync-j="4" />
+
+  <project path="kernel" name="platform/kernel" />
+  <project path="build" name="platform/build" />
+  <project path="tools" name="platform/tools" />
+  <project path="boot" name="platform/u-boot" />
+
+</manifest>
