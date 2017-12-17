@@ -4,7 +4,7 @@
   <remote  name="platform"
            fetch="ssh://git@github.com/Belray-Yao"
            review="https://android-review.googlesource.com/" />
-  <default revision="remotes/origin/HEAD" remote="platform" sync-j="4" />
+  <default revision="master" remote="platform" sync-j="4" />
 
   <project name="kernel" path="platform/kernel" />
   <project name="build"  path="platform/build" />
