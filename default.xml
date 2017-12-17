@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="platform"
-           fetch="https://github.com/Belray-Yao"
+           fetch="ssh://git@github.com/Belray-Yao"
            review="https://android-review.googlesource.com/" />
   <default revision="remotes/origin/HEAD" remote="platform" sync-j="4" />
 
