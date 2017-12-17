@@ -8,9 +8,9 @@
            remote="platform"
            sync-j="4" />
 
-  <project path="kernel" name="platform/kernel" />
-  <project path="build" name="platform/build" />
-  <project path="tools" name="platform/tools" />
-  <project path="boot" name="platform/u-boot" />
+  <project name="kernel" path="platform/kernel" />
+  <project name="build"  path="platform/build" />
+  <project name="tools"  path="platform/tools" />
+  <project name="boot"   path="platform/u-boot" />
 
 </manifest>
