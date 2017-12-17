@@ -4,8 +4,7 @@
   <remote  name="platform"
            fetch="https://github.com/Belray-Yao"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/head/itop4412"
-           remote="platform"
+  <default remote="platform"
            sync-j="4" />
 
   <project name="kernel" path="platform/kernel" />
